@@ -1,3 +1,21 @@
+# qb-radio + Saltychat
+Radio for QB-Core Framework 
+
+modified by Thodde26
+
+## Download
+- Salty Server Version:  https://github.com/v10networkscom/saltychat-fivem/releases/tag/v0.0.4
+- Plugin Version: https://gaming.v10networks.com/saltychat/download/2.3.6
+
+## server.cfg
+```
+ensure saltychat 
+ensure saltyhud
+ensure qb-radio
+```
+
+pma-voice is deactivated
+
 # qb-radio
 Radio Script With UI
 
