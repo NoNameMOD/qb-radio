@@ -41,7 +41,7 @@ RegisterNUICallback('joinRadio', function(data, cb)
     if tonumber(data.channel) <= Config.RestrictedChannels then
       if(PlayerData.job.name == 'police' or PlayerData.job.name == 'ambulance' or PlayerData.job.name == 'fire') then
         exports.saltychat:SetRadioChannel(data.channel, true)
-        
+
 --        exports['mythic_notify']:DoHudText('inform', Config.messages['joined_to_radio'] .. data.channel .. '.00 MHz </b>')
           QBCore.Functions.Notify(Config.messages['joined_to_radio'] .. data.channel .. '.00 MHz </b>, 'error')
       elseif not (PlayerData.job.name == 'police' or PlayerData.job.name == 'ambulance' or PlayerData.job.name == 'fire') then
@@ -61,10 +61,10 @@ RegisterNUICallback('joinRadio', function(data, cb)
   end
 
   -- Debug output
-  --[[
+  --[[ ]]
+
   PrintChatMessage("radio: " .. data.channel)
   print('radiook')
-  ]]
 
   cb('ok')
 end)
