@@ -35,9 +35,9 @@ local function connecttoradio(channel)
 -- Saltychat
     else
         onRadio = true
---        exports["pma-voice"]:setVoiceProperty("radioEnabled", true)
+        exports["pma-voice"]:setVoiceProperty("radioEnabled", true)
 -- Saltychat
-        exports.saltychat:setVoiceProperty(radioEnabled, true)
+--        exports.saltychat:setVoiceProperty(radioEnabled, true)
 -- Saltychat
     end
 --    exports["pma-voice"]:setRadioChannel(channel)
@@ -230,5 +230,149 @@ CreateThread(function()
                 end
             end, "radio")
         end
+    end
+end)
+
+RegisterNetEvent('qb-radio:client:JoinRadioChannel1')
+AddEventHandler('qb-radio:client:JoinRadioChannel1', function(channel)
+    local channel = 1
+--    exports["pma-voice"]:setRadioChannel(channel)
+-- Saltychat
+      exports.saltychat:SetRadioChannel(channel, true)
+-- Saltychat
+    if SplitStr(tostring(channel), ".")[2] ~= nil and SplitStr(tostring(channel), ".")[2] ~= "" then
+        QBCore.Functions.Notify(Config.messages['joined_to_radio'] ..channel.. ' MHz', 'success')
+    else
+        QBCore.Functions.Notify(Config.messages['joined_to_radio'] ..channel.. '.00 MHz', 'success')
+    end
+end)
+
+RegisterNetEvent('qb-radio:client:JoinRadioChannel2')
+AddEventHandler('qb-radio:client:JoinRadioChannel2', function(channel)
+    local channel = 2
+--    exports["pma-voice"]:setRadioChannel(channel)
+-- Saltychat
+      exports.saltychat:SetRadioChannel(channel, true)
+-- Saltychat
+    if SplitStr(tostring(channel), ".")[2] ~= nil and SplitStr(tostring(channel), ".")[2] ~= "" then
+        QBCore.Functions.Notify(Config.messages['joined_to_radio'] ..channel.. ' MHz', 'success')
+    else
+        QBCore.Functions.Notify(Config.messages['joined_to_radio'] ..channel.. '.00 MHz', 'success')
+    end
+end)
+
+RegisterNetEvent('qb-radio:client:JoinRadioChannel3')
+AddEventHandler('qb-radio:client:JoinRadioChannel3', function(channel)
+    local channel = 3
+--    exports["pma-voice"]:setRadioChannel(channel)
+-- Saltychat
+      exports.saltychat:SetRadioChannel(channel, true)
+-- Saltychat
+    if SplitStr(tostring(channel), ".")[2] ~= nil and SplitStr(tostring(channel), ".")[2] ~= "" then
+        QBCore.Functions.Notify(Config.messages['joined_to_radio'] ..channel.. ' MHz', 'success')
+    else
+        QBCore.Functions.Notify(Config.messages['joined_to_radio'] ..channel.. '.00 MHz', 'success')
+    end
+end)
+
+RegisterNetEvent('qb-radio:client:JoinRadioChannel4')
+AddEventHandler('qb-radio:client:JoinRadioChannel4', function(channel)
+    local channel = 4
+--    exports["pma-voice"]:setRadioChannel(channel)
+-- Saltychat
+      exports.saltychat:SetRadioChannel(channel, true)
+-- Saltychat
+    if SplitStr(tostring(channel), ".")[2] ~= nil and SplitStr(tostring(channel), ".")[2] ~= "" then
+        QBCore.Functions.Notify(Config.messages['joined_to_radio'] ..channel.. ' MHz', 'success')
+    else
+        QBCore.Functions.Notify(Config.messages['joined_to_radio'] ..channel.. '.00 MHz', 'success')
+    end
+end)
+
+RegisterNetEvent('qb-radio:client:JoinRadioChannel5')
+AddEventHandler('qb-radio:client:JoinRadioChannel5', function(channel)
+    local channel = 5
+--    exports["pma-voice"]:setRadioChannel(channel)
+-- Saltychat
+      exports.saltychat:SetRadioChannel(channel, true)
+-- Saltychat
+    if SplitStr(tostring(channel), ".")[2] ~= nil and SplitStr(tostring(channel), ".")[2] ~= "" then
+        QBCore.Functions.Notify(Config.messages['joined_to_radio'] ..channel.. ' MHz', 'success')
+    else
+        QBCore.Functions.Notify(Config.messages['joined_to_radio'] ..channel.. '.00 MHz', 'success')
+    end
+end)
+
+RegisterNetEvent('qb-radio:client:JoinRadioChannel6')
+AddEventHandler('qb-radio:client:JoinRadioChannel6', function(channel)
+    local channel = 6
+--    exports["pma-voice"]:setRadioChannel(channel)
+-- Saltychat
+      exports.saltychat:SetRadioChannel(channel, true)
+-- Saltychat
+    if SplitStr(tostring(channel), ".")[2] ~= nil and SplitStr(tostring(channel), ".")[2] ~= "" then
+        QBCore.Functions.Notify(Config.messages['joined_to_radio'] ..channel.. ' MHz', 'success')
+    else
+        QBCore.Functions.Notify(Config.messages['joined_to_radio'] ..channel.. '.00 MHz', 'success')
+    end
+end)
+
+
+RegisterNetEvent('qb-radio:client:JoinRadioChannel7')
+AddEventHandler('qb-radio:client:JoinRadioChannel7', function(channel)
+    local channel = 7
+--    exports["pma-voice"]:setRadioChannel(channel)
+-- Saltychat
+      exports.saltychat:SetRadioChannel(channel, true)
+-- Saltychat
+    if SplitStr(tostring(channel), ".")[2] ~= nil and SplitStr(tostring(channel), ".")[2] ~= "" then
+        QBCore.Functions.Notify(Config.messages['joined_to_radio'] ..channel.. ' MHz', 'success')
+    else
+        QBCore.Functions.Notify(Config.messages['joined_to_radio'] ..channel.. '.00 MHz', 'success')
+    end
+end)
+
+
+RegisterNetEvent('qb-radio:client:JoinRadioChannel8')
+AddEventHandler('qb-radio:client:JoinRadioChannel8', function(channel)
+    local channel = 8
+--    exports["pma-voice"]:setRadioChannel(channel)
+-- Saltychat
+      exports.saltychat:SetRadioChannel(channel, true)
+-- Saltychat
+    if SplitStr(tostring(channel), ".")[2] ~= nil and SplitStr(tostring(channel), ".")[2] ~= "" then
+        QBCore.Functions.Notify(Config.messages['joined_to_radio'] ..channel.. ' MHz', 'success')
+    else
+        QBCore.Functions.Notify(Config.messages['joined_to_radio'] ..channel.. '.00 MHz', 'success')
+    end
+end)
+
+
+RegisterNetEvent('qb-radio:client:JoinRadioChannel9')
+AddEventHandler('qb-radio:client:JoinRadioChannel9', function(channel)
+    local channel = 9
+--    exports["pma-voice"]:setRadioChannel(channel)
+-- Saltychat
+      exports.saltychat:SetRadioChannel(channel, true)
+-- Saltychat
+    if SplitStr(tostring(channel), ".")[2] ~= nil and SplitStr(tostring(channel), ".")[2] ~= "" then
+        QBCore.Functions.Notify(Config.messages['joined_to_radio'] ..channel.. ' MHz', 'success')
+    else
+        QBCore.Functions.Notify(Config.messages['joined_to_radio'] ..channel.. '.00 MHz', 'success')
+    end
+end)
+
+
+RegisterNetEvent('qb-radio:client:JoinRadioChannel10')
+AddEventHandler('qb-radio:client:JoinRadioChannel10', function(channel)
+    local channel = 10
+--    exports["pma-voice"]:setRadioChannel(channel)
+-- Saltychat
+      exports.saltychat:SetRadioChannel(channel, true)
+-- Saltychat
+    if SplitStr(tostring(channel), ".")[2] ~= nil and SplitStr(tostring(channel), ".")[2] ~= "" then
+        QBCore.Functions.Notify(Config.messages['joined_to_radio'] ..channel.. ' MHz', 'success')
+    else
+        QBCore.Functions.Notify(Config.messages['joined_to_radio'] ..channel.. '.00 MHz', 'success')
     end
 end)
