@@ -1,5 +1,5 @@
-# qb-phone + Saltychat
-Advanced Phone for QB-Core Framework :iphone:
+# qb-radio + Saltychat
+Advanced Radio for QB-Core Framework 
 
 modified by Thodde26
 
